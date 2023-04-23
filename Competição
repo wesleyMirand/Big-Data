@@ -1,0 +1,43 @@
+Como se manter competitivo em big data?
+Para se manter competitivo em big data, é importante ter uma equipe qualificada e experiente em tecnologias de big data, como Hadoop, Spark, NoSQL, entre outras. 
+Além disso, é essencial investir em infraestrutura de hardware e software para processar, armazenar e analisar grandes volumes de dados. Também é importante ter
+uma estratégia clara para coletar, gerenciar e utilizar os dados para tomar decisões baseadas em dados.
+
+Como manter sistemas legados em big data?
+Manter sistemas legados em big data pode ser um desafio, mas é importante identificar os sistemas legados que são críticos para o negócio e que precisam ser
+integrados ao ecossistema de big data. É necessário avaliar as opções disponíveis para integrar esses sistemas, como APIs, conectores e sistemas de ETL (Extract,
+Transform, Load). Além disso, é importante ter uma estratégia clara para a migração de dados desses sistemas para o novo ambiente de big data.
+
+Como integrar sistemas em big data?
+A integração de sistemas em big data pode ser feita através de diferentes abordagens, dependendo das necessidades específicas da empresa. Algumas opções incluem
+a utilização de APIs para integrar sistemas de forma programática, a utilização de conectores pré-construídos para sistemas populares, como SAP ou Salesforce, e a 
+utilização de ferramentas de ETL para integrar dados de diferentes fontes.
+
+Como gerenciar tantos dados em big data?
+Gerenciar grandes volumes de dados em big data pode ser um desafio, mas existem estratégias que podem ajudar a simplificar esse processo. É importante definir
+um modelo de dados claro e consistente, que possa ser utilizado por todas as aplicações que utilizam dados do ambiente de big data. Também é importante ter uma 
+estratégia de backup e recuperação de dados, para garantir que os dados estejam protegidos e disponíveis em caso de falha do sistema. Finalmente, é importante definir
+
+políticas de segurança e privacidade para proteger os dados sensíveis da empresa.
+
+Fontes de dados e sistemas integrados: As fontes de dados para uma arquitetura de big data podem incluir dados transacionais, dados de redes sociais, dados de
+sensores IoT, dados de mídia social, dados de registros de servidor da web, dados de dispositivos móveis, entre outros. Para integrar esses sistemas, é necessário
+uma plataforma de gerenciamento de dados, como Hadoop ou Spark, que permita o processamento de grandes volumes de dados de várias fontes.
+
+Problemas de negócios e operações: A utilização de big data pode ajudar as organizações a identificar problemas de negócios e operacionais, como oportunidades de
+mercado, melhorias em processos, aumento da eficiência operacional e redução de custos. Para isso, é necessário que as estratégias de big data estejam alinhadas
+com os objetivos da organização.
+
+Objetivos da empresa: Os objetivos que se esperam ser concretizados com o uso de big data incluem a melhoria da tomada de decisão, a personalização do atendimento
+ao cliente, a previsão de tendências e comportamentos do mercado, a identificação de oportunidades de negócios, entre outros.
+
+Novas fontes de dados: A Internet das Coisas (IoT) é uma das fontes de dados emergentes que pode ser integrada a uma arquitetura de big data. Isso pode incluir
+dados de sensores de dispositivos inteligentes, veículos conectados, dispositivos médicos e muitos outros dispositivos conectados à Internet.
+
+Pensamento orientado a dados: Uma arquitetura de big data pode trazer o pensamento orientado a dados e análises para o centro do negócio, permitindo que as
+organizações tomem decisões informadas com base em dados e insights em tempo real.
+
+Componentes para soluções de big data: Além dos componentes de prototipagem, é necessário um conjunto de tecnologias e ferramentas para concretizar
+e operacionalizar soluções de big data e análise. Isso pode incluir plataformas de gerenciamento de dados, ferramentas de análise de dados, algoritmos de
+aprendizado de máquina, ferramentas de visualização de dados, entre outros. Além disso, é necessário um planejamento cuidadoso e um processo de governança de dados
+bem definido para garantir a qualidade dos dados e a segurança da informação.
