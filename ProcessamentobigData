@@ -1,0 +1,22 @@
+A * X + B = tempo de processamento                 (ou memória)
+A * X^3 + B = tempo de processamento
+A * c^X + B = tempo de processamento
+A * log2(X) + B = tempo de processamento
+
+Essas equações mostram diferentes modelos matemáticos que podem ser usados para descrever o tempo de processamento ou uso de memória de um sistema de big data em 
+função de um determinado parâmetro.
+
+A primeira equação, A * X + B = tempo de processamento (ou memória), é uma equação linear que representa que o tempo de processamento ou uso de memória aumenta
+proporcionalmente com o valor de X.
+
+A segunda equação, A * X^3 + B = tempo de processamento, é uma equação cúbica que representa que o tempo de processamento aumenta de forma mais rápida do que
+proporcionalmente com o valor de X. Isso significa que pequenas alterações em X podem ter um grande impacto no tempo de processamento.
+
+A terceira equação, A * c^X + B = tempo de processamento, é uma equação exponencial que representa que o tempo de processamento aumenta exponencialmente com o
+valor de X. Isso significa que pequenas alterações em X podem ter um grande impacto no tempo de processamento.
+
+A quarta equação, A * log2(X) + B = tempo de processamento, é uma equação logarítmica que representa que o tempo de processamento aumenta de forma mais lenta do que
+proporcionalmente com o valor de X. Isso significa que à medida que o valor de X aumenta, o tempo de processamento aumenta de forma mais lenta.
+
+Em geral, essas equações podem ser usadas para entender como diferentes variáveis afetam o desempenho de um sistema de big data e como otimizar a arquitetura e os
+algoritmos para atender às necessidades de processamento e memória da empresa.
