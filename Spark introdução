@@ -1,0 +1,12 @@
+Spark aumenta a perfomance de volume de dados em paralelo
+Muitos dados para uma maquina só, oque agente faz? Paralelisa isso, alternativas > MAP REDUCE, com problemas na perfomance.
+Ai vem o Spark com maquina baratas, em maquina parelela.
+Em Map Reduce, tinha que rodar varias vezes, com sistema de persitencia lento.
+Ja no spark cria uma cadeia de operações e essas operações executam nossos dados, Spark é um projeto OPen SOurce, projeto antigo em desenvolvimento,
+não é uma tecnologia finalizada, spark está evoluindo pelo grupo apache, spark poder rodar com hadop e sem, só que ele nao consegue substituir o hadoop so roda
+se for encima e le arquvios dele.
+O spark tem uma API, que pode filtrar, ordenar, janela os dados, grau de obstração maior em programação.
+ Spark oferece um framework, deixando claro que seus dados serão destribuido voce programa um codigo seguindo uma linha sequencial e esse codigo sera feito em cada pedacinho
+ de linha de forma indepente, maquina separada, pararelo e logica.
+ 
+ 
