@@ -1,0 +1,26 @@
+  PC enviar job pro spark, contruir um código, com escala em java e submeter isso para o spark. quando submter ele vai usar o driver da sua aplicação. 
+  ^Quando ele chega no codigo spark, ele vai avisa opa vou tenque trabalhar agora de forma paralela, vai se comunicar com o executor da aplicação e o executor vai 
+   receber oque tenque ser feito para o conjunto de dados. O codigo principal coorderna e envia dados pros executores e eles executam sobre o conjunto de dados
+   que na maquina ou em outro lugar.
+   Depois de executar Salva o disko em paralelo ou coleta os dados do driver 
+   ai a aplicação encerra.
+  |
+SUBMIT -------> DRIVER
+                  |
+                  | _____|-------------------------_|-------------------|----------------------|--------
+                  |> Executor1                  Executor2             Executor3               Executor n Encerra
+                 
+                 
+                 RDD RESIIILENTE DISTRUBUTED DATASETS
+            Le os dados -->faz sequencia de transformaçao                                  ---> operação de ação que vai salvar o dado em algum lugar.
+                 INPUT ---> Operação de  Transformação 1 --> O D T 2 --> O D T n ----> Operação de ação
+                   ^                                                                         ^
+                   |                                                                         |
+       csv, parquet,                                                                       hdfs, memória, BD etc
+      json, kafka, etc
+      
+      RdD= Criar cojunto de açoes encadeadas, essas operação so executa quando voce fizer a ação 
+      Dados expalhado, giga byte pedaçoes de dados, vou fazer operações dos dados, le , fazer o filtro , selecionar coluna, torna ela unica e contar os valores 
+     um cadeamento, ele so vai executar quando eu mandar ele executar, ela vai rodar em paralelo e cada bloco ter sequencia de Name node 1 , namenode 2, se algum falhar
+     ele so precisa fazer do dado que falhou.        
+                 
