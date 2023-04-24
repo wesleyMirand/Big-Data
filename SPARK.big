@@ -1,0 +1,13 @@
+     |                  PARALLEL                                                                 |   Driver Program
+     |                                                                                           |
+HDFS<----- RDD(HDFS textfile) <----- RDD(Filter ("ERR") <------  RDD MAP () <------ RDD reduce() ---> RESULT
+
+val file = spark.textfile("hdfs://...")           (         /# pega os arquivo de login #/
+val errs = file.filter(_.contains("ERROR"))                /* filtrar os arquivo com palavra erro linhas com erro */
+val ones = errs.map(_=>1)                                  /* cada linha encontrada por 1 */
+val count = ones.reduce(_+_)                               /* no final usar a função que colete os resultado */ ex: contar quandos erro tem no login, quais linha tem 
+                                                                                                                   palavra error, cada linha encontrada adicione 1,
+                                                                                                                   depois soma tudo e colete os resultado. 
+                                                                                                                   Ele trabalha sempre memoria, distribuindo, filtrando.
+                                                                                                                   Ele so faz oque vc quer no final.
+                                                                                                                   Tipo map reduce com mais funções
